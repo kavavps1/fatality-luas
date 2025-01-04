@@ -41,8 +41,8 @@ mods.events:add_listener("player_death")
 local function on_present_queue()
     if ufonscounter:get_value():get() then
         local local_player = entities.get_local_pawn()
-        local local_player_name = local_player:get_name()
         if local_player == null then nospread_attackers = {} return end
+        local local_player_name = local_player:get_name()
         local d = draw.surface
         d.font = draw.fonts['gui_main']
 
