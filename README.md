@@ -1,1 +1,1 @@
-UFOHOOK nospread counter
+Fatality CS2 LUA
