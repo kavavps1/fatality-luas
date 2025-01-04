@@ -1,1 +1,1 @@
-Fatality CS2 LUAS 
+Fatality CS2 b1g fat LUAS (im not fat, but these luas are, so be careful before loading it in your bloodstream, i often inject estrogen before injecting skeet/fatality because it boosts the resolver's capability!)
