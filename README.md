@@ -1,1 +1,1 @@
-Fatality CS2 LUA
+Fatality CS2 LUAS 
