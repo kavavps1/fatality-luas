@@ -9,8 +9,6 @@ local function on_present_queue()
     if hide_head_cb:get_value():get() then
         local local_player = entities.get_local_pawn()
         local on_ground = bit.band(local_player.m_fFlags:get(), bit.lshift(1, 0))
-        --local velocity_modifier = local_player.m_flVelocityModifier:get()
-        --print(on_ground)
         local wep = local_player:get_active_weapon();
         if wep == null then return end
         local type = wep:get_type();
