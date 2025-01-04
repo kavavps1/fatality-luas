@@ -46,8 +46,8 @@ local function on_present_queue()
         local d = draw.surface
         d.font = draw.fonts['gui_main']
 
-        local x_position = w * 0.05 
-        local y_position = h * 0.70 
+        local x_position = w * 0.84
+        local y_position = h * 0.42 
 
         d:add_text(draw.vec2(x_position, y_position), '[UFOHOOK] Nospread Counter', draw.color.white())
 
