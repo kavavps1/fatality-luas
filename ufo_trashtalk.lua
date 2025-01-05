@@ -31,7 +31,8 @@ local cowboy_phrases = {
     "Horses > newgens from tiktok",
     "Get owned by texashook! Yeeehaw!",
     "Get out of my ranch u dipshit",
-    "We always protect our home... My ranch - My rules!"
+    "We always protect our home... My ranch - My rules!",
+    "TEXAS - not a state... A COUNTRY!!!"
 }
 
 local ufohook_phrases = {
@@ -51,7 +52,8 @@ local ufohook_phrases = {
     "neverlose.cc/refund.php",
     "clapped",
     "yalla habibi",
-    "flip-flop FL6"
+    "flip-flop FL6",
+    "szybkie szoty jak mbappe cała sala na PKP"
 }
 
     
