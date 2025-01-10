@@ -1,7 +1,4 @@
--- all pasted or done by me, i dont give credits because i dont fuckin care this shit is for my digidonger brain and i can't code for shit, who fuckin even reads alldat lol
-
-
-
+-- pasted shit kurwa
 
 --
 -- delayed call
