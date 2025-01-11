@@ -1,5 +1,28 @@
 -- pasted shit kurwa
 
+
+--
+-- colored print 
+--
+
+ffi.cdef[[
+    typedef struct {
+        uint8_t r;
+        uint8_t g;
+        uint8_t b;
+        uint8_t a;
+    } Color;
+]]
+
+
+local white_print = ffi.cast('void(__fastcall*)(const char*, ...)', utils.find_export('tier0.dll', 'Msg'));
+white_print('white print\n');
+local coloredprint = ffi.cast('void(__cdecl*)(const Color*, const char*, ...)', utils.find_export('tier0.dll', '?ConColorMsg@@YAXAEBVColor@@PEBDZZ'));
+coloredprint(ffi.new('Color', {r = 100, g = 100, b = 255, a = 255}), 'rgba print');
+
+
+
+
 --
 -- delayed call
 --
